@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- imagem de fundo -->
+    <img src="https://www.ivanstreeservice.com/wp-content/uploads/2019/08/shutterstock_214393993-1024x683.jpg" alt="" class="background-image">
     <nav>
         <ul> <!-- unsorted list (lista não ordenada) -->    
             <li><a href="#home">Home</a></li>
@@ -37,7 +40,6 @@
         <section id="projetos" class="projects-section">
             <h2>Meus projetos</h2>
             <div class="projects-grid">
-
                 <!-- projeto 1-->
                 <div class="project-card">
                     <img src="https://dummyimage.com/350x120/2b2b2b/ffffff.png&text=Projeto" alt="Capa do projeto 1">
@@ -49,14 +51,54 @@
                         <button>Ver projeto</button>
                     </a>
                 </div>
-                <!-- projeto 2 -->
+                <!-- projeto 2-->
+                <div class="project-card">
+                    <img src="https://dummyimage.com/350x120/4b0000/ffffff.png&text=Projeto" alt="Capa do projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum culpa illo at officiis alias debitis dignissimos vitae itaque, cumque quos blanditiis unde optio. Accusamus sint, adipisci aperiam pariatur repellendus dolores!
+                    </p>
+                    <a href="#" target="_blank">
+                        <button>Ver projeto</button>
+                    </a>
+                </div>
+                <!-- projeto 2-->
+                <div class="project-card">
+                    <img src="https://dummyimage.com/350x120/4b0000/ffffff.png&text=Projeto" alt="Capa do projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum culpa illo at officiis alias debitis dignissimos vitae itaque, cumque quos blanditiis unde optio. Accusamus sint, adipisci aperiam pariatur repellendus dolores!
+                    </p>
+                    <a href="#" target="_blank">
+                        <button>Ver projeto</button>
+                    </a>
+                </div>
+
                 
             </div>
         </section>
 
-        
+        <section id="contato" class="contact-section">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <!-- nome -->
+                 <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" placeholder="Seu nome" required>
+                 </div>
+                 <!-- mensagem -->
+                 <div class="form-group">
+                    <label for="">Mensagem:</label>
+                    <textarea name="" id="message" placeholder="Sua mensagem"></textarea>
+                 </div>
+                 <button type="submit" class="whatsapp">Enviar para o WhatsApp</button>
+            </form>
+        </section>
     </main>
     
+    <script>
+
+    </script>
 
 </body>
 </html>
