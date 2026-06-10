@@ -197,11 +197,11 @@ section{
     max-width: 600px;
     margin: 0 auto;
     padding: 40px;
+    background: var(--glass-bg-dark);
     border-radius: 20px;
     backdrop-filter: blur(15px);
     border: 2px solid var(--primary-color);
-} 
-
+}
 .form-group {
     margin-bottom: 20px;
 }
@@ -209,7 +209,8 @@ section{
 .form-group label {
     display: block;
     margin-bottom: .5rem;
-    font-weight: 600px;
+    font-weight: 400;
+    text-align: start;
     background: none;
     border: none;
 }
@@ -218,9 +219,9 @@ input, textarea {
     resize: none;
     width: 100%;
     padding: 15px;
+    background: rgba(0, 0, 0, 0.32);
     border-radius: .5rem;
     border: 1px solid var(--glass-border);
-    background: rgba(255,255,255,0.1);
     color: var(--text-color);
     outline: none;
     font-size: 1rem;
